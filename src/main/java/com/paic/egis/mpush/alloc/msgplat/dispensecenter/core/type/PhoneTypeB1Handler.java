@@ -47,10 +47,6 @@ public class PhoneTypeB1Handler {
 	 public static void main(String[] args) {
 		 List<String> little = new ArrayList<String>();
 		 PhoneTypeB1Handler ph = new PhoneTypeB1Handler();
-		 for(int i=1;i<=3;i++){
-		 	String str = "t"+i;
-			 little.add(str);
-		 }
 		 ph.fetchSendDtoList(little);
 	 }
  }
