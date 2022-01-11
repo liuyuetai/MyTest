@@ -23,16 +23,16 @@ public class PhoneTypeB1Handler {
 			Map<String, String> platMap = seceneMap.get("getTask");
 			try{
 				if (taskStatePackage.equals(platMap.get("sceneCode"))) {
-					System.out.println("这个值是"+taskStatePackage);
+					System.out.println("这个值是："+taskStatePackage);
 				}
 				if(!taskStatePackage.equals(platMap.get("sceneCode"))){
-					System.out.println("这个值不是"+taskStatePackage);
+					System.out.println("这个值不是："+taskStatePackage);
 				}
 
 				try{
 					System.out.println("Map<String, String> variables=(\"sceneCode\",\"t1\");");
 				}catch(Exception e) {
-					System.out.println("className:{},method:{},BusinessInfo:{}转换异常");
+					System.out.println("className:{},method:{},BusinessInfo:{}转换异常!");
 
 				}
 				System.out.println("系统正在处理！！");
